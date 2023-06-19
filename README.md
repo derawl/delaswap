@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
+
+router: 0x955B6eF4844b6F4B22621e04eCE70122359a8B82
+facotry: 0xF1A9B9555da92feF19Bde4627877bc49eD92D405
+
 ## Project Structure
 
 The default template is a monorepo created with [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/).
