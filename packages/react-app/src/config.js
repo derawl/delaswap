@@ -1,10 +1,10 @@
-import { Goerli } from "@usedapp/core";
+import { Goerli, BSC } from "@usedapp/core";
 
-export const ROUTER_ADDRESS = "0x6E71cfbc04eF15db5CcB942f2e4C78efCDD02833";
+export const ROUTER_ADDRESS = "0x37D674A6d93eDDC83866cbF89eD77aEbADA82D4C";
 
 export const DAPP_CONFIG = {
   readOnlyChainId: Goerli.chainId,
   readOnlyUrls: {
-    [Goerli.chainId]: "https://eth-goerli.g.alchemy.com/v2/-N57fQ7JU8AURZLI89-rFWGbd9ys2syn",
+    [Goerli.chainId]: "https://eth-goerli.g.alchemy.com/v2/GISCg6BXnxwQXYXLDoGRRznxtezF3U6_",
   },
 };

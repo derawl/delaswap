@@ -17,11 +17,9 @@ input[type="number"] {
 }
 
 .gradient_btn {
-  background: linear-gradient(
-    103.91deg,
-    #9b51e0 21.01%,
-    rgba(48, 129, 237, 0.8) 100%
-  );
+  background: linear-gradient(103.91deg,
+      #9b51e0 21.01%,
+      rgba(48, 129, 237, 0.8) 100%);
 }
 
 .pink_gradient {
@@ -49,11 +47,36 @@ input[type="number"] {
 }
 
 .gradient-border {
-  background: linear-gradient(
-    168.82deg,
-    #fb37ff 1.7%,
-    rgba(155, 111, 238, 0) 27.12%,
-    rgba(123, 127, 234, 0) 61.28%,
-    #1bb2de 99.52%
-  );
+  background: linear-gradient(168.82deg,
+      #5537ff 1.7%,
+      rgba(155, 111, 238, 0) 27.12%,
+      rgba(123, 127, 234, 0) 61.28%,
+      #1bb2de 99.52%);
+}
+
+.toggle-menu {
+  display: block;
+}
+
+.toggle-menu:hover {
+  color: #18b2de !important;
+}
+
+.toggle-menu-bottom:hover {
+  color: #18b2de !important;
+}
+
+.toggle-menu-bottom {
+  display: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .toggle-menu {
+    display: none;
+  }
+
+  .toggle-menu-bottom {
+    display: block;
+  }
+
 }
