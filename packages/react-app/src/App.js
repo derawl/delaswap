@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { useEthers } from "@usedapp/core"
 import styles from './styles'
 import { delaswapLogo, loadingImg, delaswapLogoText } from './assets'
-import { Loader, WalletButton, Exchage } from './components'
+import { Loader, WalletButton,  } from './components'
 import Swap from "./Swap"
 import Pools from "./Pools"
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
